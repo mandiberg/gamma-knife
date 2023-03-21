@@ -2,10 +2,13 @@ Gamma Knife is a simple process + scripts to run queries that are too big for th
 
 Order of operations:
 
-1. Run a petscan query for the depth that you want, returning only categories. Output it as a CSV. This is the query I used: https://petscan.wmflabs.org/?categories=People+by+ethnicity&depth=6&ns%5B14%5D=1&project=wikipedia
+1. Run a petscan query for the depth-1 that you want, returning only categories. Subtract 1 from the desire depth, because the gamma_knife.py query essentially adds one layer of depth. Output it as a CSV. This is the query I used: https://petscan.wmflabs.org/?categories=People+by+ethnicity&depth=5&ns%5B14%5D&project=wikipedia
 
 2. Put that CSV in this folder. Rename it search_terms.csv, replacing the file in the folder.
 
 3. Run gamma_knife.py, which will take quite a while. It will query petscan for a 0 depth request for each category in the list. You can specify a Wikidata query: I only wanted to return pages about humans (Q5)
 
 4. Run merge_csv.py, which will open up all the petscan CSV files, and merge them into one, removing all duplicates
+
+
+https://petscan.wmflabs.org/?categories=People+by+ethnicity&depth=5&ns%5B14%5D&project=wikipedia

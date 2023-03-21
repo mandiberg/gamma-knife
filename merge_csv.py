@@ -10,12 +10,14 @@ OUTPUT_FILE = "final_list_unique.csv"
 # Create a set to store unique rows
 unique_rows = set()
 
+counter =0
+
 # Loop over each file in the input folder
 for filename in os.listdir(INPUT_FOLDER):
     # Skip any non-CSV files
     if not filename.endswith(".csv"):
         continue
-
+    print(counter)
     # Open the file and read its contents as a CSV
     with open(os.path.join(INPUT_FOLDER, filename), "r") as csvfile:
         reader = csv.reader(csvfile)
@@ -34,8 +36,12 @@ for filename in os.listdir(INPUT_FOLDER):
 
             # Add the row tuple to the set of unique rows
             unique_rows.add(row_tuple)
+    counter += 1
 
 # Write the unique rows to the output file
+print('going to attempt to save file')
 with open(OUTPUT_FILE, "w", newline="") as csvfile:
+    print('have fileout open: ',OUTPUT_FILE)
     writer = csv.writer(csvfile)
     writer.writerows(unique_rows)
+    print('written!')
