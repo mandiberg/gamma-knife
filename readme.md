@@ -1,6 +1,6 @@
 # Gamma Knife queries Wikipedia categories with Petscan
 
-Gamma Knife is a simple process + scripts to run queries that are too big for the Wikimedia Petscan tool. This process is designed for dealing with queries that go very deep into category structures. These queries are too big so they timeout. 
+Gamma Knife is a simple process + scripts to run queries that are too big for the Wikimedia Petscan tool (https://petscan.wmflabs.org/). This process is designed for dealing with queries that go very deep into category structures. These queries are too big so they timeout. 
 
 ## Order of operations:
 
