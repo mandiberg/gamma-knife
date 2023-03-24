@@ -1,0 +1,81 @@
+These are the categories to be excluded. They fall into several categories:
+
+- People from or employed in a place; they will be cross categorized if this corresponds to nationality or ethnicity. United_States_ is all military personel. 
+- People who emigrated from settler colonial countries
+- Fictional people
+- Non biographical categories
+- Athletes from a place
+
+Categories I left in, which are questionable:
+
+- Politicians. Too many to try to remove. Too many variations. Heads of state, ministers, by country, etc. 
+
+- _players - can't remove, because it has multiple meanings. But what that means is that there are many sportspeople who are included simply because they played on a specific team. 
+
+
+Added in depth 3
+
+Academic_staff_of_
+Ambassadors
+American_emigrants
+Australian_emigrants
+Canadian_emigrants
+expatriates
+Cultural_depictions
+Fictional
+Immigrants_to_
+Lists_of_
+Naturalised_citizens_
+Novels_by_
+People_by_
+People_deported_
+Refugees_in_
+Works_
+
+Added in depth 4
+
+wikipedia_categories_
+_from_
+representatives_of_
+delegates_of_
+people_with_acquired_
+buildings_and_structures_
+biographical_museums_
+american_mormon_
+american_military_personnel_
+academic_staff_of_
+
+
+Added in depth 5
+
+Academics_of_
+Adaptations_of_
+Battles_
+Books_
+Burial_sites_
+Burials_
+Christian_
+Commonwealth_Games_
+Compositions_by_
+Cultural_depictions_of_
+European_Games_competitors_
+Films_about
+Films_by_
+Films_directed_by_
+History_of_
+James_Bond_
+Marvel_Comics_
+Olympic_
+Paintings_
+People_associated_with_
+People_by_
+People_educated_
+Plays_
+Recipients_of_
+Sportspeople_by_
+Staff_of_
+Taxa_named_by_
+Translators_of
+Trotskyism_in_
+United_States_
+University_of_

@@ -1,9 +1,9 @@
 import csv
 
 # Define the input and output file paths
-INPUT_FILE = "final_list_unique.csv"
+INPUT_FILE = "final_list_unique_People_African_descent_74955.csv"
 DIFFERENT_FILE = "bios_202303181617.csv"
-OUTPUT_FILE = "final_list_unique_unionwikidata.csv"
+OUTPUT_FILE = "final_list_unique_intersect_wikidata.csv"
 
 # Create a set to store unique rows
 input_rows = set()
